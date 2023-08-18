@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ 
+ #header{
+     display: flex;
+     flex-direction: column;
+     background-color: #ecbcd4;
+     text-align: center;
+ }
+ 
+ #logo{
+     color: #fff;
+     font-size: 25px;
+     padding: 25px;
+     font-weight: bold;
+ }
+ 
+ 
+ #logo img{
+     width: 200px;
+     height: 28px;
+     align-items: center;
+ }
+ 
+ #btt_menu{
+     display: none;
+ }
+ 
+ label[for="btt_menu"]{
+     display: none;
+     position: absolute;
+     padding: 10px;
+     color: #fff;
+     font-size: 50px;
+     cursor: pointer;
+ }
+ 
+ ul{
+     list-style-type: none;
+     margin: 0px;
+     padding: 0px;
+     overflow: hidden;
+     background-color: #f3cbdf;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ li{
+     float: left;
+ }
+ 
+ li:hover, .dropdown:hover, .drop_btt:hover{
+     background-color: #f5b2d4;
+ }
+ 
+ li a, .drop_btt{
+     display: block;
+     color: #fff;
+     text-align: center;
+     padding: 20px 16px;
+     text-decoration: none;
+ }
+ 
+ 
+ @media screen and (max-width: 768px){
+ 
+     label[for="btt_menu"]{
+         display: block;
+     }
+ 
+     #nav{
+         display: none;
+     }
+ 
+     #nav li{
+         float: none;
+         text-align: center;
+     }
+ 
+     #nav .dropdown_content{
+         position: relative;
+     }
+ 
+     #nav .dropdown_content a{
+         text-align: center;
+     }
+ 
+     #btt_menu:checked ~ #nav{
+         display: block;
+     }
+ } 
+ 
+ @media(max-width: 425px){
+ 
+     #icon{
+         display: none;
+     }
+ 
+     #logo{
+         font-size: 0;
+     }
+ 
+     label[for="btt_menu"]{
+         font-size: 30px;
+     }
+ 
+     #logo img{
+        position: relative;
+        left: 0;
+        width: 120px;
+        height: 20px;
+     }
+ 
+ }

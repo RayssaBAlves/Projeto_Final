@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BLACKPINK</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <div id="header">
+       
+        <div id="logo">
+            <img src="img/logo.png" alt="">         
+        </div>
+
+        <input type="checkbox" id="btt_menu">
+        <label for="btt_menu"> &#9776; </label>
+
+        <div id="nav">
+            <ul>
+                <li> <a href="#tour">Tour</a></li>
+                <li> <a href="#album">Albúns</a></li>
+                <li> <a href="#sobre">Sobre</a></li>
+                <li> <a href="#footer_content">Redes Sociais</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container" id="sobre">
+        <div class="fade">
+            <img src="img/car=1.png">
+        </div>
+        
+        <div class="fade">
+            <img src="img/car-2.png">
+        </div>
+        
+        <div class="fade">
+            <img src="img/car-3.png">
+        </div>
+
+        <a class="prev" onclick="plus_slides(-1)"> &#10094; </a>
+        <a class="next" onclick="plus_slides(1)"> &#10095; </a>
+    </div>
+
+    <div class="dot_box">
+        <span class="dot" onclick="current_slides(1)"></span>
+        <span class="dot" onclick="current_slides(2)"></span>
+        <span class="dot" onclick="current_slides(3)"></span>
+    </div>
+
+
+    
+    <div class="container-1">
+        <div class="card">
+            <img src="img/jisoo.jfif" alt="">
+            <div class="card-content">
+                <div class="card-title">Jisoo</div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="img/jennie.jfif" alt="">
+            <div class="card-content">
+                <div class="card-title">Jennie</div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="img/rose.jpg" alt="">
+            <div class="card-content">
+                <div class="card-title">Rosé</div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="img//lisa.jfif" alt="">
+            <div class="card-content">
+                <div class="card-title">Lisa</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="car-cards-container" id="album">
+        <div class="car-card">
+          <img src="img/album1.jpg" alt="">
+          <h3>Square One</h3>
+          <p>Ano: 2018</p>
+          <p>BLACKPINK</p>
+          <p>YG Entertainment</p>
+          <p>Preço: 190,00</p>
+          <a href="https://klinestore.com.br/produtos/blackpink-square-up/" target="_blank">Comprar</a>
+        </div>
+        <div class="car-card">
+            <img src="img/album2.jpg" alt="">
+            <h3>Kill This Love</h3>
+            <p>Ano: 2019</p>
+            <p>BLACKPINK</p>
+            <p>YG Entertainment</p>
+            <p>Preço: 202,00</p>
+            <a href="https://klinestore.com.br/produtos/blackpink-kill-this-love/" target="_blank">Comprar</a>
+          </div>
+          <div class="car-card">
+            <img src="img/album3.jpg" alt="">
+            <h3>The Album</h3>
+            <p>Ano: 2020</p>
+            <p>BLACKPINK</p>
+            <p>YG Entertainment</p>
+            <p>Preço: 260,00</p>
+            <a href="https://klinestore.com.br/produtos/pre-venda-blackpink-the-album/" target="_blank">Comprar</a>
+          </div>
+          <div class="car-card">
+            <img src="img/album4.jpg" alt="">
+            <h3>Born Pink</h3>
+            <p>Ano: 2022</p>
+            <p>BLACKPINK</p>
+            <p>YG Entertainment</p>
+            <p>Preço: 225,00</p>
+            <a href="https://klinestore.com.br/produtos/blackpink-born-pink/" target="_blank">Comprar</a>
+          </div>              
+    </div>    
+
+    <div class="car-cards-container">
+        <div class="car-card">
+          <img src="img/album-7.png" alt="">
+          <h3>Solo</h3>
+          <p>Ano: 2018</p>
+          <p>Jennie</p>
+          <p>YG Entertainment</p>
+          <p>Preço: 165,00</p>
+          <a href="https://klinestore.com.br/produtos/jennie-solo/" target="_blank">Comprar</a>
+        </div>
+        <div class="car-card">
+            <img src="img/album-5.jpg" alt="">
+            <h3>-R-</h3>
+            <p>Ano: 2021</p>
+            <p>Rosé</p>
+            <p>YG Entertainment</p>
+            <p>Preço: 205,00</p>
+            <a href="https://klinestore.com.br/produtos/rose-r/" target="_blank">Comprar</a>
+          </div>
+          <div class="car-card">
+            <img src="img/album-6.png" alt="">
+            <h3>Lalisa</h3>
+            <p>Ano: 2021</p>
+            <p>Lisa</p>
+            <p>YG Entertainment</p>
+            <p>Preço: 242,00</p>
+            <a href="https://klinestore.com.br/produtos/lisa-lalisa/" target="_blank">Comprar</a>
+          </div>
+          <div class="car-card">
+            <img src="img/album-8.jpg" alt="">
+            <h3>Me</h3>
+            <p>Ano: 2023</p>
+            <p>Jisoo</p>
+            <p>YG Entertainment</p>
+            <p>Preço: 215,00</p>
+            <a href="https://klinestore.com.br/produtos/jisoo-first-single-album-me/" target="_blank">Comprar</a>
+          </div>              
+    </div>   
+ 
+
+    <div class="container-3" id="tour">
+        <div class="event-details">
+            <h2>In Your Area</h2>
+            <p>Compre já o seu</p>
+          </div>
+          <div class="event-cards">
+            <div class="event-card">
+              <h3>Born Pink</h3>
+              <p>Data: 11 de agosto</p>
+              <p>Local: One MetLife Stadium Drive, East Rutherford, NJ 07073</p>
+              <a href="https://www.ticketmaster.com/blackpink-world-tour-born-pink-encore-east-rutherford-new-jersey-08-11-2023/event/00005E99D47A5C4C" target="_blank">Comprar</a>
+            </div>
+            <div class="event-card">
+              <h3>Born Pink</h3>
+              <p>Data: 12 de agosto</p>
+              <p>Local: One MetLife Stadium Drive, East Rutherford, NJ 07073</p>
+              <a href="https://www.ticketmaster.com/blackpink-world-tour-born-pink-encore-east-rutherford-new-jersey-08-12-2023/event/00005E8E734B0D96" target="_blank">Comprar</a>
+            </div>
+            <div class="event-card">
+                <h3>Born Pink</h3>
+                <p>Data: 18 de agosto</p>
+                <p>Local: 3333 Al Davis Way, Las Vegas , NV 89118</p>
+                <a href="https://www.ticketmaster.com/blackpink-world-tour-born-pink-encore-las-vegas-nevada-08-18-2023/event/17005E8CC8664076" target="_blank">Comprar</a>
+              </div>
+              <div class="event-card">
+                <h3>Born Pink</h3>
+                <p>Data: 22 de agosto</p>
+                <p>Local: Oracle Park San Francisco, CA</p>
+                <a href="https://www.ticketmaster.com/event/Z7r9jZ1Ad-Nkd" target="_blank">Comprar</a>
+              </div>
+              <div class="event-card">
+                <h3>Born Pink</h3>
+                <p>Data: 26 de agosto</p>
+                <p>Local: Dodger Stadium Los Angeles, CA"</p>
+                <a href="https://www.ticketmaster.com/event/Z7r9jZ1Ad-N4E" target="_blank">Comprar</a>
+              </div>
+          </div>
+    </div>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>BLACKPINK</h1>
+                <p>In Your Area</p>
+
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com/BLACKPINKOFFICIAL/" target="_blank" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/BLACKPINKOFFICIAL/" target="_blank" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/@BLACKPINK" target="_blank" class="footer-link" id="youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://open.spotify.com/intl-pt/artist/41MozSoPIsD1dJM0CLPjZF" target="_blank" class="footer-link" id="spotify">
+                        <i class="fa-brands fa-spotify"></i>
+                    </a>
+                    <a href="https://twitter.com/BLACKPINK" target="_blank" class="footer-link" id="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            
+                <ul class="footer-list">
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=com.takeonecompany.bptg1&hl=en_US&pli=1" target="_blank" class="footer-link">Games</a>
+                            <a href="https://www.youtube.com/@BLACKPINK" target="_blank" class="footer-link">Música</a>
+                            <a href="https://shop.blackpinkmusic.com" target="_blank" class="footer-link">Produtos</a>
+                        </li>     
+                </ul>
+
+                <div id="footer_subscribe">
+                    <h3>Inscreva-se</h3>
+                    <p>Digite seu e-mail para ser avisado sobre as novidades do BLACKPINK</p>
+                    <div id="input_group">
+                        <input type="email" id="email">
+                        <button>
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="footer_coyright">
+                &#169
+                2023 all rights reserved
+            </div>
+
+    </footer>
+
+</body>
+
+</body>
+</html>
